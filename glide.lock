@@ -1,0 +1,28 @@
+hash: 4f2cc4cd1836454019fe419312bc397ebfa86b92ae4c98aa30ddab50c89a4d85
+updated: 2017-10-13T17:50:01.676335235+05:30
+imports:
+- name: github.com/bahlo/goat
+  version: ed00c964a3ee7c4793dcef1cdc6a348f1e8cbdad
+- name: github.com/go-chi/chi
+  version: 04ec7fc4179604b2390947258f9143eaae23b596
+  subpackages:
+  - middleware
+- name: github.com/go-chi/docgen
+  version: ac43d9a63f3b58b1e82922411d2de365d896ee72
+- name: github.com/go-chi/render
+  version: 9f855fadd4b8cde7773f9ef51f6b2705af239519
+- name: github.com/go-pg/pg
+  version: 91966ca9a74c1dc62ec494975fd594889907cd33
+  subpackages:
+  - internal
+  - internal/parser
+  - internal/pool
+  - orm
+  - types
+- name: github.com/jinzhu/inflection
+  version: 1c35d901db3da928c72a72d8458480cc9ade058f
+- name: upper.io/db.v3
+  version: 4ceccb1227aba5fc0f71ca3adc5dd759dfbc093e
+  subpackages:
+  - postgresql
+testImports: []

@@ -1,0 +1,16 @@
+package: github.com/Shashwatsh/box-api
+import:
+- package: github.com/bahlo/goat
+  version: ^1.0.7
+- package: github.com/go-chi/chi
+  version: ~3.2.1
+- package: github.com/go-chi/render
+  version: ~1.0.0
+- package: github.com/go-chi/docgen
+  version: ~1.0.2
+- package: upper.io/db.v3
+  version: ~3.5.0
+  subpackages:
+  - postgresql
+- package: github.com/go-pg/pg
+  version: ~6.6.1
