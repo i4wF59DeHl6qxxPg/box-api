@@ -37,18 +37,20 @@ func main() {
 	r.Route("/vms", func(r chi.Router) {
 		r.Get("/", controller.listVMs)
 		r.Post("/create", controller.CreateVMs)
-		// r.Route("/{vm}", func(r chi.Router) {
-		// 	r.Get("/stop", VmStopByquery)
-		// 	r.Get("/start", VmStartByQuery)
-		// 	r.Delete("/delete", VmDeleteByQuery)
-		// 	r.Put("/resize".VmResizeByQuery)
-		// 	r.Post("/snapshot", VmSpanshotByQuery)
-		// })
-		// r.Route("/find", func(r chi.Router) {
-		// 	r.Get("/{user}", findVmByUser)
-		// 	r.Get("/{user}/{hostname}", findbyUserHostname)
-		// 	r.Get("/{user}/{hostname}/{id}", findbyUserHostnameID)
-		// })
+		 r.Route("/{vm}", func(r chi.Router) {
+		 	r.Get("/stop", VmStopByquery)
+		 	r.Get("/start", VmStartByQuery)
+		 	r.Delete("/delete", VmDeleteByQuery)
+		 	r.Put("/resize".VmResizeByQuery)
+		 	r.Post("/snapshot", VmSpanshotByQuery)
+		 	r.Post("/passwd", VmPasswdByName)
+		 	r.Post("/hostname", VmHostnameByName)
+		 })
+		 r.Route("/find", func(r chi.Router) {
+		 	r.Get("/{user}", findVmByUser)
+		 	r.Get("/{user}/{hostname}", findbyUserHostname)
+		 	r.Get("/{user}/{hostname}/{id}", findbyUserHostnameID)
+		 })
 	})
 
 	// Passing -routes to the program will generate docs for the above
