@@ -1,0 +1,14 @@
+hash: 421b30d54db4894c5b9e97b7bc0ab16a5ecfc81137cb6ac80f214d6e1110216c
+updated: 2017-10-25T18:38:53.729906904+05:30
+imports:
+- name: github.com/go-chi/chi
+  version: f7c66f685bcab06bcce78ac212c5f3553c063d19
+  subpackages:
+  - middleware
+- name: github.com/go-chi/docgen
+  version: ac43d9a63f3b58b1e82922411d2de365d896ee72
+- name: github.com/go-chi/render
+  version: 9f855fadd4b8cde7773f9ef51f6b2705af239519
+- name: github.com/libvirt/libvirt
+  version: a60d1b150c9a4f58d591367c9eac2022d9a08780
+testImports: []

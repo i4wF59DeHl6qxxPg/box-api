@@ -1,8 +1,0 @@
-package: github.com/i4wF59DeHl6qxxPg/box-api
-import:
-- package: github.com/go-chi/chi
-  version: ~3.2.1
-- package: github.com/go-chi/render
-  version: ~1.0.0
-- package: github.com/go-chi/docgen
-  version: ~1.0.2
