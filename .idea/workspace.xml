@@ -2,417 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5650c061-ea7d-4176-865e-2783af6c501c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/vm.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/glide.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/glide.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/arch.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/domain_xml.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/image.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/ip.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/libvirt_domain_xml.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/plan.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/vm.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/providers/image_repo.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/providers/iputils.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/providers/libvirt.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/bahlo/goat/.hound.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/bahlo/goat/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/bahlo/goat/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/bahlo/goat/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/bahlo/goat/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/bahlo/goat/goat.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/bahlo/goat/goat_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/bahlo/goat/index.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/bahlo/goat/index_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/bahlo/goat/json.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/bahlo/goat/json_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/bahlo/goat/middleware.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/bahlo/goat/middleware_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/bahlo/goat/params.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/bahlo/goat/params_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/bahlo/goat/router.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/bahlo/goat/router_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/_examples/chi.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/_examples/custom-handler/main.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/_examples/fileserver/files/notes.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/_examples/fileserver/main.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/_examples/graceful/main.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/_examples/hello-world/main.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/_examples/limits/main.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/_examples/logging/main.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/_examples/rest/main.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/_examples/rest/routes.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/_examples/rest/routes.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/_examples/todos-resource/main.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/_examples/todos-resource/todos.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/_examples/todos-resource/users.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/_examples/versions/data/article.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/_examples/versions/data/errors.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/_examples/versions/main.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/_examples/versions/presenter/v1/article.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/_examples/versions/presenter/v2/article.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/_examples/versions/presenter/v3/article.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/chain.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/chi.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/context.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/middleware/closenotify17.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/middleware/closenotify18.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/middleware/compress.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/middleware/compress18.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/middleware/get_head.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/middleware/get_head_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/middleware/heartbeat.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/middleware/logger.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/middleware/middleware.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/middleware/middleware18_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/middleware/middleware_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/middleware/nocache.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/middleware/profiler.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/middleware/realip.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/middleware/realip_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/middleware/recoverer.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/middleware/request_id.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/middleware/strip.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/middleware/strip_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/middleware/terminal.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/middleware/throttle.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/middleware/throttle_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/middleware/timeout.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/middleware/url_format.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/middleware/value.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/middleware/wrap_writer.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/middleware/wrap_writer17.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/middleware/wrap_writer18.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/mux.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/mux_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/testdata/cert.pem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/testdata/key.pem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/tree.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/chi/tree_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/docgen/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/docgen/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/docgen/builder.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/docgen/docgen.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/docgen/docgen_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/docgen/funcinfo.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/docgen/markdown.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/docgen/raml/raml.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/docgen/raml/raml_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/docgen/util.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/render/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/render/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/render/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/render/content_type.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/render/decoder.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/render/render.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-chi/render/responder.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/bench_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/conv_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/db.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/db_context.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/db_no_context.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/db_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/doc.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/error.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/example_array_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/example_hstore_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/example_model_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/example_placeholders_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/example_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/exampledb_model_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/exampledb_query_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/export_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/hook.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/hook_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/internal/error.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/internal/internal.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/internal/log.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/internal/parser/array_parser.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/internal/parser/array_parser_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/internal/parser/hstore_parser.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/internal/parser/hstore_parser_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/internal/parser/parser.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/internal/parser/util.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/internal/pool/bench_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/internal/pool/conn.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/internal/pool/main_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/internal/pool/pool.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/internal/pool/pool_single.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/internal/pool/pool_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/internal/pool/write_buffer.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/internal/safe.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/internal/underscore.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/internal/underscore_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/internal/unsafe.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/internal/util.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/listener.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/listener_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/loader_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/main_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/messages.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/options.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/options_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/count_estimate.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/create_table.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/create_table_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/delete.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/delete_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/drop_table.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/drop_table_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/field.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/format.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/format_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/hook.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/inflection.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/insert.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/insert_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/join.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/join_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/main_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/model.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/model_discard.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/model_scan.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/model_slice.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/model_table.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/model_table_m2m.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/model_table_many.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/model_table_slice.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/model_table_struct.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/orm.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/query.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/query_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/relation.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/result.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/select.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/select_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/table.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/table_params.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/table_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/tables.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/tag.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/tag_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/update.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/update_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/url_values.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/url_values_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/util.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/orm/zero.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/pg.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/pool_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/race_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/result.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/stmt.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/time.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/tx.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/tx_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/types/append.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/types/append_array.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/types/append_field.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/types/append_field_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/types/append_hstore.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/types/append_jsonb.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/types/append_jsonb_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/types/append_value.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/types/array.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/types/hstore.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/types/in_op.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/types/interface.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/types/scan.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/types/scan_array.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/types/scan_hstore.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/types/scan_value.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/types/time.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/go-pg/pg/types/time_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/inflection/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/inflection/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/inflection/inflections.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/inflection/inflections_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/_examples/booktown-books/main.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/collection.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/comparison.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/compound.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/cond.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/cond_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/constraint.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/database.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/db.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/env.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/errors.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/function.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/cache/cache.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/cache/cache_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/cache/hashstructure/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/cache/hashstructure/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/cache/hashstructure/hashstructure.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/cache/hashstructure/hashstructure_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/cache/hashstructure/include.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/cache/interface.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/immutable/immutable.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/collection.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/compat/query.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/compat/query_go18.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/database.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/exql/column.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/exql/column_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/exql/column_value.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/exql/column_value_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/exql/columns.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/exql/columns_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/exql/database.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/exql/database_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/exql/default.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/exql/group_by.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/exql/group_by_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/exql/hash.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/exql/interfaces.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/exql/join.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/exql/join_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/exql/order_by.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/exql/order_by_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/exql/raw.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/exql/raw_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/exql/returning.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/exql/statement.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/exql/statement_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/exql/table.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/exql/table_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/exql/template.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/exql/utilities.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/exql/utilities_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/exql/value.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/exql/value_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/exql/where.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/exql/where_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/result.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/sqladapter.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/sqladapter_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/statement.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/testing/adapter.go.tpl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/internal/sqladapter/tx.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/intersection.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/lib/reflectx/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/lib/reflectx/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/lib/reflectx/reflect.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/lib/reflectx/reflect_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/lib/sqlbuilder/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/lib/sqlbuilder/batch.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/lib/sqlbuilder/builder.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/lib/sqlbuilder/builder_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/lib/sqlbuilder/comparison.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/lib/sqlbuilder/convert.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/lib/sqlbuilder/custom_types.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/lib/sqlbuilder/delete.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/lib/sqlbuilder/errors.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/lib/sqlbuilder/fetch.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/lib/sqlbuilder/insert.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/lib/sqlbuilder/interfaces.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/lib/sqlbuilder/paginate.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/lib/sqlbuilder/placeholder_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/lib/sqlbuilder/scanner.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/lib/sqlbuilder/select.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/lib/sqlbuilder/template.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/lib/sqlbuilder/template_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/lib/sqlbuilder/update.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/lib/sqlbuilder/wrapper.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/logger.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/marshal.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mongo/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mongo/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mongo/collection.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mongo/connection.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mongo/connection_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mongo/database.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mongo/database_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mongo/result.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mssql/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mssql/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mssql/adapter_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mssql/collection.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mssql/connection.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mssql/connection_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mssql/database.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mssql/mssql.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mssql/stubs_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mssql/template.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mssql/template_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mssql/tx.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mysql/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mysql/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mysql/adapter_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mysql/collection.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mysql/connection.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mysql/connection_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mysql/custom_types.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mysql/database.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mysql/mysql.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mysql/stubs_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mysql/template.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mysql/template_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/mysql/tx.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/operators.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/postgresql/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/postgresql/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/postgresql/adapter_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/postgresql/collection.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/postgresql/connection.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/postgresql/connection_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/postgresql/custom_types.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/postgresql/custom_types_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/postgresql/database.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/postgresql/local_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/postgresql/postgresql.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/postgresql/stubs_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/postgresql/template.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/postgresql/template_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/postgresql/tx.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/ql/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/ql/adapter_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/ql/collection.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/ql/connection.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/ql/connection_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/ql/database.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/ql/ql.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/ql/stubs_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/ql/template.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/ql/template_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/ql/tx.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/raw.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/result.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/settings.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/sqlite/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/sqlite/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/sqlite/adapter_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/sqlite/collection.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/sqlite/connection.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/sqlite/connection_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/sqlite/database.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/sqlite/sqlite.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/sqlite/stubs_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/sqlite/template.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/sqlite/template_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/sqlite/tx.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/tests/db_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/tx.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/union.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/url.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/upper.io/db.v3/wrapper.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/domain_xml.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/providers/image_repo.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/providers/libvirt.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/providers/storage_pool.go" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/vm.go" afterPath="$PROJECT_DIR$/src/controller/vm.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.go" afterPath="$PROJECT_DIR$/src/main.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -424,35 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="libvirt.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/providers/libvirt.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-              <folding>
-                <element signature="e#19#103#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="storage_pool.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/providers/storage_pool.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-              <folding>
-                <element signature="e#19#71#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="56" column="68" lean-forward="false" selection-start-line="56" selection-start-column="68" selection-end-line="56" selection-end-column="68" />
+            <state relative-caret-position="326">
+              <caret line="46" column="50" lean-forward="true" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
               <folding>
                 <element signature="e#14#197#0" expanded="true" />
               </folding>
@@ -463,33 +34,11 @@
       <file leaf-file-name="vm.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/vm.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="330">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding>
-                <element signature="e#20#37#0" expanded="true" />
+                <element signature="e#20#49#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="image_repo.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/providers/image_repo.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-              <folding>
-                <element signature="e#19#131#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="glide.yaml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/glide.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -506,6 +55,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>image</find>
+      <find>hasHost</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.9/libexec" />
@@ -517,10 +67,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/glide.yaml" />
         <option value="$PROJECT_DIR$/src/providers/image_repo.go" />
-        <option value="$PROJECT_DIR$/src/providers/libvirt.go" />
-        <option value="$PROJECT_DIR$/src/providers/storage_pool.go" />
         <option value="$PROJECT_DIR$/src/providers/json.go" />
+        <option value="$PROJECT_DIR$/src/providers/storage_pool.go" />
+        <option value="$PROJECT_DIR$/src/providers/libvirt.go" />
         <option value="$PROJECT_DIR$/src/main.go" />
+        <option value="$PROJECT_DIR$/src/controller/vm.go" />
       </list>
     </option>
   </component>
@@ -561,6 +112,18 @@
               <item name="box-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="box-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="box-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="box-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="box-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="box-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="box-api" type="b2602c69:ProjectViewProjectNode" />
@@ -625,6 +188,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -636,7 +200,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -653,53 +216,43 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.go" />
     <entry file="file://$PROJECT_DIR$/providers/libvirt.go" />
-    <entry file="file://$PROJECT_DIR$/src/providers/image_repo.go">
+    <entry file="file://$PROJECT_DIR$/src/models/domain_xml.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding>
-            <element signature="e#19#131#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/vm.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="e#20#37#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/providers/storage_pool.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="e#19#71#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/providers/libvirt.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="e#19#103#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-2188">
+          <caret line="28" column="57" lean-forward="false" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.go">
+    <entry file="file://$PROJECT_DIR$/src/providers/image_repo.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="68" lean-forward="false" selection-start-line="56" selection-start-column="68" selection-end-line="56" selection-end-column="68" />
-          <folding>
-            <element signature="e#14#197#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/vm.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="85" column="13" lean-forward="false" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -713,11 +266,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/providers/iputils.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/libvirt_domain_xml.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="86" column="13" lean-forward="true" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/glide.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/vm.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#20#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="46" column="50" lean-forward="true" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
+          <folding>
+            <element signature="e#14#197#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
